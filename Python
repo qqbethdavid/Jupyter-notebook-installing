@@ -26,5 +26,12 @@ conda list         to know the packages you have
 
 conda install numpy     if you want to install any of the packages in the list. This is an example. Numpy is a package in python and in Anaconda. 
 
+jupyter notebook        it will give you a link which you can open in your browser to open the GUI of jupyter
+                        Remember to quit the GUI when you're done so you can stop the session from constantly running. I opened a port local8888 previously 
+                        and I just closed the tab and did not quit. When I opened another session of Jupyter in the anaconda prompt it says there is another 
+                        port being used local8888, "Or the port 8888 is already in use".
+                        
+conda install pandas
+
 
 
