@@ -9,5 +9,5 @@ To know where your python is saved in your local computer just type: where pytho
 
 I uninstalled the stand alone Python that I installed (3.10) because I found out that Anaconda installs Python automatically along with Jupyter.
 
-
+Then I installed Anaconda 3
 
