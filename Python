@@ -11,3 +11,20 @@ I uninstalled the stand alone Python that I installed (3.10) because I found out
 
 Then I installed Anaconda 3. Anaconda 3 has Python 3.9
 
+open anaconda prompt in start 
+
+you'll see 
+(base) C:\Users\Beth> 
+
+type:
+
+python --version   to know what python version you have 
+
+conda info         to know what conda version you have
+
+conda list         to know the packages you have 
+
+conda install numpy     if you want to install any of the packages in the list. This is an example. Numpy is a package in python and in Anaconda. 
+
+
+
