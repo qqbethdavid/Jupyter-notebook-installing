@@ -1,0 +1,11 @@
+Installed Python 3.10. I installed it in a custom mode because I have another Python version in my computer due to ArcGIS (Python 2.6)
+To check version of python simply open cmd and type this: python --version   You can be in any address no need to change directory. 
+
+To open python simply type: python    no need to change directory. 
+
+To exit from python simply type: exit()
+
+To know where your python is saved in your local computer just type: where python   no need to change directory. 
+
+
+
