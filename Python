@@ -7,5 +7,7 @@ To exit from python simply type: exit()
 
 To know where your python is saved in your local computer just type: where python   no need to change directory. 
 
+I uninstalled the stand alone Python that I installed (3.10) because I found out that Anaconda installs Python automatically along with Jupyter.
+
 
 
