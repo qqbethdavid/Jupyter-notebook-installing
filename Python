@@ -48,12 +48,24 @@ Anaconda took me probably 3 to 5  minutes to install. It's file size in my pc is
 installed numpy  - less than one minute
 installed pandas - less than one minute
 
-instructions first file
-first instruction - ok 
+How to start testing
+ran first instruction - ok 
 second instruction - ok 
 third instruction - ok 
 fourth instruction - uploaded the .ipynb file in the dashboard first before opening it. 
-fifth instruction - I ran it it seems ok; ran file 1 start 13:04, end 13:09  - each script seems to have ran
+fifth instruction - I ran it it seems ok; 
+
+
+Jupyter notebook files to test
+File 1 Access_CSV_from_S3 -
+ran file 1 Access_CSV_from_S3 - start 13:04, end 13:09  - each script ran
+
+
+File 2  Data_analysis_examples
+Ran file 2 Data_analysis_examples  - start 13:59, end 14:08 each script ran 
+
+
+
 
 
 
