@@ -67,7 +67,7 @@ Ran file 2 Data_analysis_examples  - start 13:59, end 14:08 each script ran
 
 File 3 Visualizations examples
 my Anaconda doesn't have altair
-installed altair at start 14:25, end 14:26 
+installed altair at start 14:25, end 14:43 
 
 open the Anaconda prompt and type this: conda install -c conda-forge altair
 
@@ -88,6 +88,14 @@ Then I opened Anaconda prompt as administrator and typed the same
 conda install -c conda-forge altair
 
 and then this worked. I went back to base and that's probably successful. I did not get an error message.  
+
+Then I opened the notebook via the Anaconda powershell prompt and the dashboard showed the files instead of the folder C:\Windows\System32
+instead of the files in CIC folder. But that is probably because the prompt is in (base) C:\Windows\System32> and not (base) C:\Users\Beth>
+
+After fixing this error I now opened through Anaconda prompt and opened jupyter, opened the .ipynb file visualizations and ran the cells
+install xxx, xxx, etc that includes altair and this successfully ran. 
+
+Running visualizations start 14:54, end 15:17
 
 
   
