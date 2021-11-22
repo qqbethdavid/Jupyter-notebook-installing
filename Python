@@ -71,6 +71,8 @@ installed altair at start 14:25, end 14:43
 
 open the Anaconda prompt and type this: conda install -c conda-forge altair
 
+source: https://stackoverflow.com/questions/60997181/theres-no-altair-package-in-my-anaconda-navigator
+
 problem arose while installing altair. Prompt says: 
 "EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
   environment location: C:\ProgramData\Anaconda3"
@@ -105,7 +107,19 @@ Every excel file was downloaded. All the cells ran.
 
 TESTING PHASE II
 
+I am told there are some incompatibilites that happen when installing gdal, fiona, pyproj, rtree, shapely and geopandas. So there is a possiblity that
+I might make an error in installation so I will need to uninstall all those dependencies (dependencies refer to gdal, fiona etc. what I mentioned
+earlier). If I am going to uninstall one of those dependencies I found this script in stackoverflow: 
 
+If using conda: if for example you're going to uninstall numpy
+
+conda remove --force numpy 
+
+if using the pip tool in anaconda make sure anaconda has the pip tool check it using script  conda list
+
+pip uninstall numpy
+
+source: https://stackoverflow.com/questions/53754479/how-to-uninstall-a-single-packages-in-anaconda
 
 
 
