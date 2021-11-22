@@ -25,13 +25,14 @@ conda info         to know what conda version you have
 conda list         to know the packages you have 
 
 conda install numpy     if you want to install any of the packages in the list. This is an example. Numpy is a package in python and in Anaconda. 
+                        I installed this.
 
 jupyter notebook        it will give you a link which you can open in your browser to open the GUI of jupyter
                         Remember to quit the GUI when you're done so you can stop the session from constantly running. I opened a port local8888 previously 
                         and I just closed the tab and did not quit. When I opened another session of Jupyter in the anaconda prompt it says there is another 
                         port being used local8888, "Or the port 8888 is already in use".
                         
-conda install pandas    i installed this 
+conda install pandas    I installed this 
 
 
 Then the .ipynb files I uploaded first in the Jupyter dashboard. To do this save the .ipynb file in your desired folder and then in the dashboard upper 
@@ -42,7 +43,7 @@ the scripts in the files. Remember than the [*] means the script is still runnin
 
 
 
-installation 
+Anaconda installation 
 
 Anaconda took me probably 3 to 5  minutes to install. It's file size in my pc is not showing. 
 installed numpy  - less than one minute
@@ -63,6 +64,32 @@ ran file 1 Access_CSV_from_S3 - start 13:04, end 13:09  - each script ran
 
 File 2  Data_analysis_examples
 Ran file 2 Data_analysis_examples  - start 13:59, end 14:08 each script ran 
+
+File 3 Visualizations examples
+my Anaconda doesn't have altair
+installed altair at start 14:25, end 14:26 
+
+open the Anaconda prompt and type this: conda install -c conda-forge altair
+
+problem arose while installing altair. Prompt says: 
+"EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
+  environment location: C:\ProgramData\Anaconda3"
+
+so I opened the anaconda powershell prompt and did this from stackoverflow:
+
+"On Windows, search for Anaconda PowerShell Prompt. Right click the program and select Run as administrator. In the command prompt, execute the following command:
+
+conda update -n base -c defaults conda
+
+Your Anaconda should now update without admin related errors".
+
+  
+
+
+
+
+
+
 
 
 
