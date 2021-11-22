@@ -31,7 +31,13 @@ jupyter notebook        it will give you a link which you can open in your brows
                         and I just closed the tab and did not quit. When I opened another session of Jupyter in the anaconda prompt it says there is another 
                         port being used local8888, "Or the port 8888 is already in use".
                         
-conda install pandas
+conda install pandas    i installed this 
+
+
+Then the .ipynb files I uploaded first in the Jupyter dashboard. To do this save the .ipynb file in your desired folder and then in the dashboard upper 
+right hand corner look for the upload button. Click this and look for the file you need to upload. Then you will find that it comes up in the dashboard. 
+You're probably going to click another button to be able to put it in the dashboard. Then you can double click this to open this file. Then start running 
+the scripts in the files. Remember than the [*] means the script is still running so don't click run on the next script just yet. 
 
 
 
