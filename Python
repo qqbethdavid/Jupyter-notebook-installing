@@ -83,6 +83,13 @@ conda update -n base -c defaults conda
 
 Your Anaconda should now update without admin related errors".
 
+Then I opened Anaconda prompt as administrator and typed the same 
+
+conda install -c conda-forge altair
+
+and then this worked. I went back to base and that's probably successful. I did not get an error message.  
+
+
   
 
 
