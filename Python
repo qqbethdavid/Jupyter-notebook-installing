@@ -122,6 +122,62 @@ pip uninstall numpy
 source: https://stackoverflow.com/questions/53754479/how-to-uninstall-a-single-packages-in-anaconda
 
 
+installation of geopandas with dependencies start 21:00to 21:41
+
+Read the instructions
+Downloaded the binaries of geopandas from Gohlke's library
+GDAL  - download time 7 sec
+pyproj - 7 sec
+Fiona - 3 sec
+rtree - 3 sec
+shapely - 3 sec
+geopandas - 2 sec
+
+Installation using pip install 
+GDAL - install time  5 sec    - installation ok
+Fiona - 4 sec  - installation ok
+pyproj - 3 sec - installation ok
+rtree - 2 sec -  already installed
+Rtree installation came out with this message: 
+"Rtree is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel."
+
+I didn't do anything for rtree because it is already installed. 
+
+shapely - 2 sec  -installation ok
+geopandas - 3 sec - installation ok
+
+
+Testing was done if geopandas is working
+open Anaconda prompt
+Type python to get to python 
+from a python interpreter type 
+>>>import geopandas as gpd
+then type 
+>>>help(gpd)
+if package contents are listed then you successfully installed geopandas. 
+
+
+Testing the ipynb files
+File 1 Test_cloudfront_data_access,  start 22:05  to 22:21
+took a while to run the cell --> loading EEZ data using pandas and printing number of records (maybe 5 to 6 minutes) (This is under load EEZ data from S3...section)
+took a while to run the cell--> Loading LME data using pandas and printing number of records 
+(7 minutes) (This is under Load LME data from S3 based on fishing entity selection)
+All the cells ran successfully
+
+
+3. Test_geopandas_shape_files 
+start 23:50, end 23:55 
+had problem with uploading the file in jupyter. It seems to have hanged. It seems to be not responding anymore so I shutdown the kernel and restarted a new notebook from a new prompt and it worked, I was able to upload the file. 
+
+tested test_geopandas_shapefile successfully
+
+Tested  test_folium_maps file 
+Anaconda has no folium library 
+installed folium through conda  --> conda install -c conda-forge folium
+encountered another error because I am not installing as administrator. So I installed it again. 
+installation took 10 seconds.
+
+Rememeber to install as administrator by opening Anaconda prompt as administrator. Right click that icon to find the "run as administrator" option. 
 
 
 
