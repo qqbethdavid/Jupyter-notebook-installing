@@ -1,3 +1,6 @@
+TESTING PHASE 2 
+For the .ipynb files look for it in C:\Ate\Work\CIC
+
 Installed Python 3.10. I installed it in a custom mode because I have another Python version in my computer due to ArcGIS (Python 2.6)
 To check version of python simply open cmd and type this: python --version   You can be in any address no need to change directory. 
 
@@ -107,6 +110,8 @@ Every excel file was downloaded. All the cells ran.
 
 TESTING PHASE II
 
+For the .ipynb files look for it in C:\Ate\Work\CIC
+
 I am told there are some incompatibilites that happen when installing gdal, fiona, pyproj, rtree, shapely and geopandas. So there is a possiblity that
 I might make an error in installation so I will need to uninstall all those dependencies (dependencies refer to gdal, fiona etc. what I mentioned
 earlier). If I am going to uninstall one of those dependencies I found this script in stackoverflow: 
@@ -147,6 +152,11 @@ shapely - 2 sec  -installation ok
 geopandas - 3 sec - installation ok
 
 
+The versions of dependencies of geopandas, the one saved from Christophe Gohlke's website are saved in C:\Ate\Work\CIC\Jupyter_testing\wheels
+These are referred to as wheels or dependencies. The versions I downloaded were for Python 3.9 so it has in its file names cp39_cp_39_win_amd64 
+64 for 64 bit, win for windows, cp for python. 
+
+
 Testing was done if geopandas is working
 open Anaconda prompt
 Type python to get to python 
@@ -177,8 +187,10 @@ installed folium through conda  --> conda install -c conda-forge folium
 encountered another error because I am not installing as administrator. So I installed it again. 
 installation took 10 seconds.
 
-Rememeber to install as administrator by opening Anaconda prompt as administrator. Right click that icon to find the "run as administrator" option. 
+Remember to install as administrator by opening Anaconda prompt as administrator. Right click that icon to find the "run as administrator" option. 
 
+I encountered an error while running the map part in test_folium_maps file. The map part had an error while running and the maps didn't show. So 
+I shutdown the kernel and restarted another notebook session. I ran every cell again and it worked. 
 
 
   
